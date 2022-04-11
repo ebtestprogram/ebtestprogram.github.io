@@ -1,37 +1,92 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+	<meta charset="utf-8">
+	<title> Emilybeth's final project</title>
+	<meta name= "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--Bootstrap CSS-->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="C:\Users\emily\OneDrive\Documents\E-learning Developer\DEV103 HTML Course\css.stylesassignment.css">	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+</head>
+<body>
+<h1> Health and Fitness Guide</h1>
+<nav class="nav nav-pills nav-justified">
+  <a class="nav-link active" aria-current="page" href="C:\Users\emily\OneDrive\Documents\E-learning Developer\DEV103 HTML Course\finalassignmentp1.html">Recipes</a>
+  <a class="nav-link" href="C:\Users\emily\OneDrive\Documents\E-learning Developer\DEV103 HTML Course\finalassignmentp2.html">Vacation Spots</a>
+  <a class="nav-link" href="C:\Users\emily\OneDrive\Documents\E-learning Developer\DEV103 HTML Course\finalassignmentp3.html">Motivation</a>
+  <a class="nav-link" href="C:\Users\emily\OneDrive\Documents\E-learning Developer\DEV103 HTML Course\finalassignmentp4.html"> Travel Tips </a>
+  <a class="nav-link" href="C:\Users\emily\OneDrive\Documents\E-learning Developer\DEV103 HTML Course\finalassignmentp5.html"> Outfits</a>
 
-You can use the [editor on GitHub](https://github.com/ebtestprogram/ebtestprogram.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+</nav>
+<p>&nbsp</p>
+<h2>Top five foods to eat on vacation</h2>
+<img src="C:\Users\emily\OneDrive\Documents\E-learning Developer\DEV103 HTML Course\assortment-different-fruits-berries-flat-260nw-1395910394.webp"
+alt="image of different kinds of fruit">
+<table class="table table-dark table-striped">
+<tr>
+<th>sweets</th>  
+	<td>ice cream</td>
+  	<td>brownies</td>
+</tr>
+<tr>
+ <th>meals</th>
+	<td>poutine</td>
+	<td>noodles</td>
+</tr>
+<tr>
+<th>drinks</th>
+	<td>beer</td>
+	<td>milkshakes</td>
+</tr>
+</table>
+<p>&nbsp</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h4>Top three tips to stay on track while on vacation</h4>
+<ul>
+<li> Stay hydrated</li>
+<li>Remain active</li>
+<li>Go for long walks</li>
+</ul>
+<p>&nbsp</p>
+<h4>Two steps to keep in mind when exercising on vacation </h4>
+<ol>
+<li> Pack workout clothes</li>
+<li>Make time for yourself</li>
+</ol>
 
-### Markdown
+<p>&nbsp</p>
+<p>&nbsp</p>
+<div class="p-3 mb-2 bg-primary text-white">TODAY'S PLAN</div>
+<p>&nbsp</p>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      EAT
+    </div>
+    <div class="col order-5">
+      SLEEP
+    </div>
+    <div class="col order-1">
+      REPEAT
+    </div>
+  </div>
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<p>This page is complete. If you click on the "Hide" button, this content will disappear</p>
 
-```markdown
-Syntax highlighted code block
+<button id="hide">Hide</button>
+<button id="show">Show</button>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ebtestprogram/ebtestprogram.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
