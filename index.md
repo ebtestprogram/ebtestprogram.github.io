@@ -28,13 +28,12 @@ $(document).ready(function(){
   <a class="nav-link" href="finalassignmentp2.html">Vacation Spots</a>
   <a class="nav-link" href="finalassignmentp3.html">Motivation</a>
  <a class="nav-link" href="finalassignmentp4.html">Travel Tips</a>
-						  <a class="nav-link"href="finalassignmentp5.html">Travel Outfits</a>
+<a class="nav-link" href="finalassignmentp5.html">Travel Outfits</a>
 
 </nav>
 
 <h2>Top five foods to eat on vacation</h2>
-![images](https://user-images.githubusercontent.com/103295011/163078248-8820a069-7ee3-4406-9be5-acf6c5233f0e.jpg)
-alt="image of different kinds of fruit">
+
 <table class="table table-dark table-striped">
 <tr>
 <th>sweets</th>  
@@ -89,5 +88,3 @@ alt="image of different kinds of fruit">
 <button id="hide">Hide</button>
 <button id="show">Show</button>
 
-</body>
-</html>
