@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+	<meta charset="utf-8">
+	<title> Emilybeth's final project</title>
+	<meta name= "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--Bootstrap CSS-->
+ <link rel="stylesheet" type="text/css" href="/css/main.css">	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+</head>
+<body>
+	<h1>Emily's Blog</h1>
+<h1> Health and Fitness Guide</h1>
+<nav class="nav nav-pills nav-justified">
+ <nav class="nav nav-pills nav-justified">
+  <a class="nav-link active" aria-current="page" href="finalassignmentp1.html">Recipes</a>
+  <a class="nav-link" href="finalassignmentp2.html">Vacation Spots</a>
+  <a class="nav-link" href="finalassignmentp3.html">Motivation</a>
+ <a class="nav-link" href="finalassignmentp4.html">Travel Tips</a>
+						  <a class="nav-link"href="finalassignmentp5.html">Travel Outfits</a>
+
+</nav>
+
+<h2>Top five foods to eat on vacation</h2>
+![images](https://user-images.githubusercontent.com/103295011/163078248-8820a069-7ee3-4406-9be5-acf6c5233f0e.jpg)
+alt="image of different kinds of fruit">
+<table class="table table-dark table-striped">
+<tr>
+<th>sweets</th>  
+	<td>ice cream</td>
+  	<td>brownies</td>
+</tr>
+<tr>
+ <th>meals</th>
+	<td>poutine</td>
+	<td>noodles</td>
+</tr>
+<tr>
+<th>drinks</th>
+	<td>beer</td>
+	<td>milkshakes</td>
+</tr>
+</table>
+
+
+<h4>Top three tips to stay on track while on vacation</h4>
+<ul>
+<li> Stay hydrated</li>
+<li>Remain active</li>
+<li>Go for long walks</li>
+</ul>
+
+<h4>Two steps to keep in mind when exercising on vacation </h4>
+<ol>
+<li> Pack workout clothes</li>
+<li>Make time for yourself</li>
+</ol>
+
+
+<div class="p-3 mb-2 bg-primary text-white">TODAY'S PLAN</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      EAT
+    </div>
+    <div class="col order-5">
+      SLEEP
+    </div>
+    <div class="col order-1">
+      REPEAT
+    </div>
+  </div>
+</div>
+
+<p>This page is complete. If you click on the "Hide" button, this content will disappear</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+</body>
+</html>
